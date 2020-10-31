@@ -3,13 +3,11 @@ effect give @a[tag=ww] weakness 1 255 true
 # Spawnpunkt der Spieler setzen, damit sie nicht in der Lobby respawnen
 execute in ww:1 run spawnpoint @a[tag=wwig] 0 52 0
 
-# scoreboard objectives add wwtod deathCount {"text":"WWTod","color":"green"}
-# scoreboard objectives add wwkill playerKillCount {"text":"WWKill","color":"green"}
+# scoreboard objectives add wwtod deathCount
+# scoreboard objectives add wwkill playerKillCount
 execute as @a[scores={wwtod=1..},tag=wwig] if entity @a[scores={wwkill=1..},tag=wwig] run tellraw @a[tag=wwig] [{"text":"[","color":"gray"},{"text":"Wool Wars","color":"yellow"},{"text":"] "},{"selector":"@s"},{"text":" wurde von ","color":"aqua"},{"selector":"@a[scores={wwkill=1..},tag=wwig]"},{"text":" getötet.","color":"aqua"}]
 execute as @a[scores={wwtod=1..},tag=wwig] unless entity @a[scores={wwkill=1..},tag=wwig] run tellraw @a[tag=wwig] [{"text":"[","color":"gray"},{"text":"Wool Wars","color":"yellow"},{"text":"] "},{"selector":"@s"},{"text":" ist gestorben.","color":"aqua"}]
 scoreboard players set @a[scores={wwtod=1..},tag=wwig] Spec -1
-scoreboard players add @a[scores={wwtod=1..},tag=wwig] wwtode 1
-scoreboard players add @a[scores={wwkill=1..},tag=wwig] wwkills 1
 scoreboard players reset @a wwtod
 scoreboard players reset @a wwkill
 
@@ -19,6 +17,7 @@ execute if score #ww number matches 1 run title @a[tag=wwig] title {"text":"Sieg
 execute if score #ww number matches 1 run title @a[tag=wwig] subtitle {"text":"Alle Spieler sind gestorben","color":"green"}
 execute if score #ww number matches 1 run scoreboard players set @a[tag=wwig] Spec -1
 
+# Lobbysystem
 scoreboard players set #wwwarten spieler 0
 execute unless entity @a[tag=wwig] as @a[tag=ww] run scoreboard players add #wwwarten spieler 1
 execute if entity @a[tag=wwig] run title @a[tag=ww] actionbar {"text":"Aktuell läuft noch ein Spiel!","color":"red"}

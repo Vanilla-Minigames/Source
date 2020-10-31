@@ -1,0 +1,438 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 2,
+                "max": 6
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 430,
+                    "name": "minecraft:wooden_sword",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "min": 5,
+                                "max": 20
+                            },
+                            "treasure": true,
+                            "conditions": [
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 225,
+                    "name": "minecraft:stone_sword",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "min": 7,
+                                "max": 20
+                            },
+                            "treasure": true,
+                            "conditions": [
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 220,
+                    "name": "minecraft:golden_sword",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "min": 7,
+                                "max": 25
+                            },
+                            "treasure": true,
+                            "conditions": [
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 95,
+                    "name": "minecraft:iron_sword",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "min": 8,
+                                "max": 25
+                            },
+                            "treasure": true,
+                            "conditions": [
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 30,
+                    "name": "minecraft:diamond_sword",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "min": 8,
+                                "max": 40
+                            },
+                            "treasure": true,
+                            "conditions": [
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 120,
+                    "name": "minecraft:leather_helmet"
+                },
+                {
+                    "type": "item",
+                    "weight": 120,
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "min": 5,
+                                "max": 20
+                            },
+                            "treasure": true,
+                            "conditions": [
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 120,
+                    "name": "minecraft:leather_leggings",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "min": 5,
+                                "max": 20
+                            },
+                            "treasure": true,
+                            "conditions": [
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.3
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 125,
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "min": 5,
+                                "max": 20
+                            },
+                            "treasure": true,
+                            "conditions": [
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.4
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 110,
+                    "name": "minecraft:golden_helmet"
+                },
+                {
+                    "type": "item",
+                    "weight": 110,
+                    "name": "minecraft:golden_chestplate",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "min": 7,
+                                "max": 25
+                            },
+                            "treasure": true,
+                            "conditions": [
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.3
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 110,
+                    "name": "minecraft:golden_leggings"
+                },
+                {
+                    "type": "item",
+                    "weight": 110,
+                    "name": "minecraft:golden_boots"
+                },
+                {
+                    "type": "item",
+                    "weight": 80,
+                    "name": "minecraft:chainmail_helmet"
+                },
+                {
+                    "type": "item",
+                    "weight": 75,
+                    "name": "minecraft:chainmail_chestplate",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "min": 8,
+                                "max": 39
+                            },
+                            "treasure": true,
+                            "conditions": [
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.099
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 80,
+                    "name": "minecraft:chainmail_leggings"
+                },
+                {
+                    "type": "item",
+                    "weight": 80,
+                    "name": "minecraft:chainmail_boots"
+                },
+                {
+                    "type": "item",
+                    "weight": 60,
+                    "name": "minecraft:iron_helmet"
+                },
+                {
+                    "type": "item",
+                    "weight": 55,
+                    "name": "minecraft:iron_chestplate",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "min": 11,
+                                "max": 40
+                            },
+                            "treasure": true,
+                            "conditions": [
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 60,
+                    "name": "minecraft:iron_leggings"
+                },
+                {
+                    "type": "item",
+                    "weight": 60,
+                    "name": "minecraft:iron_boots"
+                },
+                {
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:diamond_helmet"
+                },
+                {
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:diamond_chestplate",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "min": 5,
+                                "max": 40
+                            },
+                            "treasure": true,
+                            "conditions": [
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:diamond_leggings"
+                },
+                {
+                    "type": "item",
+                    "weight": 30,
+                    "name": "minecraft:diamond_boots"
+                },
+                {
+                    "type": "item",
+                    "weight": 200,
+                    "name": "minecraft:wooden_axe"
+                },
+                {
+                    "type": "item",
+                    "weight": 110,
+                    "name": "minecraft:stone_axe"
+                },
+                {
+                    "type": "item",
+                    "weight": 80,
+                    "name": "minecraft:iron_axe"
+                },
+                {
+                    "type": "item",
+                    "weight": 50,
+                    "name": "minecraft:golden_apple"
+                },
+                {
+                    "type": "item",
+                    "weight": 215,
+                    "name": "minecraft:potato",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        },
+                        {
+                            "function": "furnace_smelt",
+                            "conditions": [
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.7
+                                }
+                            ]
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 115,
+                    "name": "minecraft:bow"
+                },
+                {
+                    "type": "item",
+                    "weight": 90,
+                    "name": "minecraft:fishing_rod"
+                },
+                {
+                    "type": "item",
+                    "weight": 110,
+                    "name": "minecraft:arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 7
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:ender_pearl",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 210,
+                    "name": "minecraft:white_wool",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 32,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 210,
+                    "name": "minecraft:orange_wool",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 32,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

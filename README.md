@@ -2,53 +2,35 @@
 Hier kann jeder mithelfen und Spielmodi verbessern :P
 
 ## Abkürzungen für Spielmodi
-pw - Pigwars
 
-kh - King of the Hill
-
-sg - Survivalgames
-
-sp - Spleef
-
-tt - TTT
-
-tr - TNT-Run
-
-tw - TNT-Wars
-
-mb - Mini-Bedwars
-
-sw - Skywars 4x2
-
-s1 - Skywars 1vs1
-
-er - Elytrarennen
-
-gg - GunGame
-
-kb - Knockback
-
-hs - Block Hunt
-
-ma - Mobarena
-
-pb - Paintball
-
-rm - Ragemode
-
-tk - Trapking
-
-jl - Jump League
-
-sl - Slither
-
-mu - Masterbuilders
-
-ww - WoolWars
-
-hg - HG
-
-tb - The Brigde
-
-so - Soup
-
+| Name vom Spielmodus | Abkürzung |
+ | ---------------- | -------- |
+ | Pigwars | pw
+ | King of the Hill | kh
+ | Survivalgames | sg
+ | Spleef | sp
+ | TTT | tt
+ | TNT-Run | tr
+ | TNT-Wars | tw
+ | Mini-Bedwars | mb
+ | Skywars 4x2 | sw
+ | Skywars 1vs1 | s1
+ | 1vs1 | vs
+ | Elytrarennen | er
+ | Parkour | pk
+ | GunGame | gg
+ | Knockback | kb
+ | Block Hunt | hs
+ | Mobarena | ma
+ | Paintball | pb
+ | Ragemode | rm
+ | Trapking | tk
+ | Jump League | jl
+ | Slither | sl
+ | Masterbuilders | mu
+ | WoolWars | ww
+ | HG | hg
+ | The Brigde | tb
+ | Soup | so
+ | Jump and Run | jr
+ 

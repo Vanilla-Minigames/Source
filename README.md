@@ -1,10 +1,8 @@
 # Vanilla Minigames
 Hier kann jeder mithelfen und Spielmodi verbessern :P
 
-## Abkürzungen für Spielmodi
-
-| Name vom Spielmodus | Abkürzung |
- | ---------------- | -------- |
+ | Name vom Spielmodus | Abkürzung |
+ | ---------------- | ------- |
  | Pigwars | pw
  | King of the Hill | kh
  | Survivalgames | sg
@@ -18,6 +16,8 @@ Hier kann jeder mithelfen und Spielmodi verbessern :P
  | 1vs1 | vs
  | Elytrarennen | er
  | Parkour | pk
+ | Soup | so
+ | Jump and Run | jr
  | GunGame | gg
  | Knockback | kb
  | Block Hunt | hs
@@ -31,6 +31,4 @@ Hier kann jeder mithelfen und Spielmodi verbessern :P
  | WoolWars | ww
  | HG | hg
  | The Brigde | tb
- | Soup | so
- | Jump and Run | jr
  

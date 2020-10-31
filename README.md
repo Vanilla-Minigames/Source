@@ -44,8 +44,11 @@ sl - Slither
 
 mu - Masterbuilders
 
-ww - Wool Wars
+ww - WoolWars
 
 hg - HG
 
 tb - The Brigde
+
+so - Soup
+

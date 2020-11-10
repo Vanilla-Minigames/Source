@@ -28,7 +28,7 @@ Hier kann jeder mithelfen und Spielmodi verbessern :P
  | Jump League | jl
  | Slither | sl
  | Masterbuilders | mu
- | Woolwars | ww
+ | Woolwars | wo
  | HG | hg
  | The Brigde | tb
  

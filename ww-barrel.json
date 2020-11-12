@@ -8,7 +8,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 150,
+                    "weight": 125,
                     "name": "minecraft:stone_sword",
                     "functions": [
                         {
@@ -29,20 +29,20 @@
                 },
                 {
                     "type": "item",
-                    "weight": 95,
+                    "weight": 100,
                     "name": "minecraft:iron_sword",
                     "functions": [
                         {
                             "function": "enchant_with_levels",
                             "levels": {
-                                "min": 8,
+                                "min": 10,
                                 "max": 25
                             },
                             "treasure": true,
                             "conditions": [
                                 {
                                     "condition": "random_chance",
-                                    "chance": 0.4
+                                    "chance": 0.6
                                 }
                             ]
                         }
@@ -50,7 +50,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 40,
+                    "weight": 45,
                     "name": "minecraft:diamond_sword",
                     "functions": [
                         {
@@ -71,7 +71,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 70,
+                    "weight": 60,
                     "name": "minecraft:chainmail_chestplate",
                     "functions": [
                         {
@@ -84,7 +84,7 @@
                             "conditions": [
                                 {
                                     "condition": "random_chance",
-                                    "chance": 0.3
+                                    "chance": 0.4
                                 }
                             ]
                         }
@@ -103,8 +103,8 @@
                         {
                             "function": "enchant_with_levels",
                             "levels": {
-                                "min": 11,
-                                "max": 40
+                                "min": 10,
+                                "max": 35
                             },
                             "treasure": true,
                             "conditions": [
@@ -169,13 +169,13 @@
                 },
                 {
                     "type": "item",
-                    "weight": 180,
+                    "weight": 160,
                     "name": "minecraft:potato",
                     "functions": [
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 3,
+                                "min": 4,
                                 "max": 10
                             }
                         },
@@ -192,17 +192,17 @@
                 },
                 {
                     "type": "item",
-                    "weight": 70,
+                    "weight": 65,
                     "name": "minecraft:fishing_rod"
                 },
 				{
                     "type": "item",
-                    "weight": 100,
+                    "weight": 80,
                     "name": "minecraft:bow"
                 },
                 {
                     "type": "item",
-                    "weight": 100,
+                    "weight": 80,
                     "name": "minecraft:arrow",
                     "functions": [
                         {
@@ -230,7 +230,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 190,
+                    "weight": 180,
                     "name": "minecraft:white_wool",
                     "functions": [
                         {
@@ -244,7 +244,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 190,
+                    "weight": 180,
                     "name": "minecraft:orange_wool",
                     "functions": [
                         {

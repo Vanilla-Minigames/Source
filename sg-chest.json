@@ -8,20 +8,20 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 512,
+                    "weight": 500,
                     "name": "minecraft:wooden_sword",
                     "functions": [
                         {
                             "function": "enchant_with_levels",
                             "levels": {
-                                "min": 5,
+                                "min": 7,
                                 "max": 20
                             },
                             "treasure": true,
                             "conditions": [
                                 {
                                     "condition": "random_chance",
-                                    "chance": 0.1
+                                    "chance": 0.12
                                 }
                             ]
                         }
@@ -35,29 +35,8 @@
                         {
                             "function": "enchant_with_levels",
                             "levels": {
-                                "min": 8,
+                                "min": 10,
                                 "max": 20
-                            },
-                            "treasure": true,
-                            "conditions": [
-                                {
-                                    "condition": "random_chance",
-                                    "chance": 0.08
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 256,
-                    "name": "minecraft:golden_sword",
-                    "functions": [
-                        {
-                            "function": "enchant_with_levels",
-                            "levels": {
-                                "min": 7,
-                                "max": 25
                             },
                             "treasure": true,
                             "conditions": [
@@ -77,7 +56,7 @@
                         {
                             "function": "enchant_with_levels",
                             "levels": {
-                                "min": 11,
+                                "min": 8,
                                 "max": 20
                             },
                             "treasure": true,
@@ -99,7 +78,7 @@
                             "function": "enchant_with_levels",
                             "levels": {
                                 "min": 13,
-                                "max": 45
+                                "max": 40
                             },
                             "treasure": true,
                             "conditions": [
@@ -325,22 +304,22 @@
                 },
                 {
                     "type": "item",
-                    "weight": 256,
+                    "weight": 250,
                     "name": "minecraft:wooden_axe"
                 },
                 {
                     "type": "item",
-                    "weight": 240,
+                    "weight": 210,
                     "name": "minecraft:wooden_pickaxe"
                 },
                 {
                     "type": "item",
-                    "weight": 128,
+                    "weight": 120,
                     "name": "minecraft:stone_axe"
                 },
                 {
                     "type": "item",
-                    "weight": 96,
+                    "weight": 90,
                     "name": "minecraft:iron_axe"
                 },
                 {
@@ -392,29 +371,6 @@
                 },
                 {
                     "type": "item",
-                    "weight": 256,
-                    "name": "minecraft:chicken",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 4
-                            }
-                        },
-                        {
-                            "function": "furnace_smelt",
-                            "conditions": [
-                                {
-                                    "condition": "random_chance",
-                                    "chance": 0.5
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
                     "weight": 128,
                     "name": "minecraft:porkchop",
                     "functions": [
@@ -430,7 +386,7 @@
                             "conditions": [
                                 {
                                     "condition": "random_chance",
-                                    "chance": 0.5
+                                    "chance": 0.6
                                 }
                             ]
                         }
@@ -453,30 +409,7 @@
                             "conditions": [
                                 {
                                     "condition": "random_chance",
-                                    "chance": 0.5
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 196,
-                    "name": "minecraft:mutton",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 4
-                            }
-                        },
-                        {
-                            "function": "furnace_smelt",
-                            "conditions": [
-                                {
-                                    "condition": "random_chance",
-                                    "chance": 0.5
+                                    "chance": 0.6
                                 }
                             ]
                         }
@@ -491,7 +424,7 @@
                             "function": "set_count",
                             "count": {
                                 "min": 2,
-                                "max": 5
+                                "max": 8
                             }
                         }
                     ]
@@ -500,6 +433,20 @@
                     "type": "item",
                     "weight": 140,
                     "name": "minecraft:bow"
+                },
+                {
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 7
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "item",
@@ -528,36 +475,22 @@
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 2,
-                                "max": 10
+                                "min": 5,
+                                "max": 15
                             }
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 100,
-                    "name": "minecraft:arrow",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 7
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 128,
+                    "weight": 115,
                     "name": "minecraft:gold_ingot",
                     "functions": [
                         {
                             "function": "set_count",
                             "count": {
                                 "min": 2,
-                                "max": 4
+                                "max": 5
                             }
                         }
                     ]

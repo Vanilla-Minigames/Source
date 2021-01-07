@@ -9,12 +9,12 @@
         {
           "type": "item",
           "name": "stone",
-          "weight": 19,
+          "weight": 9,
           "functions": [
             {
               "function": "set_count",
               "count": {
-				"min": 12,
+				"min": 14,
 				"max": 64
 			  }
             }
@@ -99,7 +99,7 @@
         {
           "type": "item",
           "name": "wooden_axe",
-          "weight": 10,
+          "weight": 9,
           "functions": [
             {
               "function": "enchant_with_levels",
@@ -196,6 +196,24 @@
           "type": "item",
           "name": "fishing_rod",
           "weight": 8
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 20,
+                "max": 55
+              }
+            }
+          ]
         }
       ]
     }

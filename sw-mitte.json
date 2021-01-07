@@ -9,7 +9,7 @@
         {
           "type": "item",
           "name": "stone",
-          "weight": 18,
+          "weight": 8,
           "functions": [
             {
               "function": "set_count",
@@ -205,6 +205,24 @@
           "type": "item",
           "name": "fishing_rod",
           "weight": 8
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 20,
+                "max": 55
+              }
+            }
+          ]
         }
       ]
     }

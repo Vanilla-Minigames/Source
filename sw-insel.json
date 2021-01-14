@@ -9,13 +9,13 @@
         {
           "type": "item",
           "name": "stone",
-          "weight": 9,
+          "weight": 7,
           "functions": [
             {
               "function": "set_count",
               "count": {
-				"min": 14,
-				"max": 64
+				"min": 10,
+				"max": 50
 			  }
             }
           ]
@@ -209,8 +209,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 20,
-                "max": 55
+                "min": 15,
+                "max": 60
               }
             }
           ]

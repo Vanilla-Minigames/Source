@@ -9,13 +9,13 @@
         {
           "type": "item",
           "name": "stone",
-          "weight": 8,
+          "weight": 6,
           "functions": [
             {
               "function": "set_count",
               "count": {
 				"min": 10,
-				"max": 50
+				"max": 35
 			  }
             }
           ]

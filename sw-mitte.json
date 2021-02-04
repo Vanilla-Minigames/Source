@@ -36,20 +36,6 @@
         },
         {
           "type": "item",
-          "name": "apple",
-          "weight": 13,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-				"min": 1,
-				"max": 5
-			  }
-            }
-          ]
-        },
-        {
-          "type": "item",
           "name": "iron_sword",
           "weight": 8
         },
@@ -218,8 +204,26 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 20,
+                "min": 15,
                 "max": 55
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
               }
             }
           ]

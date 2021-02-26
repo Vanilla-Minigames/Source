@@ -31,4 +31,7 @@ Hier kann jeder mithelfen und Spielmodi verbessern :P
  | Woolwars | wo
  | HG | hg
  | The Brigde | tb
+ | DeathCube | dc
+ | Lasertag | lt
+ 
  

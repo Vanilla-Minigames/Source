@@ -33,5 +33,5 @@ Hier kann jeder mithelfen und Spielmodi verbessern :P
  | The Brigde | tb
  | DeathCube | dc
  | Lasertag | lt
- 
+ | Minewars | mw
  

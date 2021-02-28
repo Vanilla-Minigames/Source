@@ -8,6 +8,21 @@
             "entries": [
                 {
                     "type": "item",
+                    "weight": 90,
+                    "name": "minecraft:iron_axe"
+                },
+                {
+                    "type": "item",
+                    "weight": 115,
+                    "name": "minecraft:stone_axe"
+                },
+                {
+                    "type": "item",
+                    "weight": 150,
+                    "name": "minecraft:wooden_axe"
+                },
+                {
+                    "type": "item",
                     "weight": 125,
                     "name": "minecraft:stone_sword",
                     "functions": [
@@ -50,7 +65,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 45,
+                    "weight": 65,
                     "name": "minecraft:diamond_sword",
                     "functions": [
                         {
@@ -63,7 +78,7 @@
                             "conditions": [
                                 {
                                     "condition": "random_chance",
-                                    "chance": 0.3
+                                    "chance": 0.5
                                 }
                             ]
                         }
@@ -84,7 +99,7 @@
                             "conditions": [
                                 {
                                     "condition": "random_chance",
-                                    "chance": 0.4
+                                    "chance": 0.7
                                 }
                             ]
                         }
@@ -97,7 +112,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 50,
+                    "weight": 60,
                     "name": "minecraft:iron_chestplate",
                     "functions": [
                         {
@@ -110,7 +125,7 @@
                             "conditions": [
                                 {
                                     "condition": "random_chance",
-                                    "chance": 0.1
+                                    "chance": 0.4
                                 }
                             ]
                         }
@@ -128,7 +143,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 35,
+                    "weight": 45,
                     "name": "minecraft:diamond_chestplate",
                     "functions": [
                         {
@@ -141,7 +156,7 @@
                             "conditions": [
                                 {
                                     "condition": "random_chance",
-                                    "chance": 0.1
+                                    "chance": 0.3
                                 }
                             ]
                         }
@@ -160,11 +175,6 @@
                 {
                     "type": "item",
                     "weight": 65,
-                    "name": "minecraft:iron_axe"
-                },
-                {
-                    "type": "item",
-                    "weight": 55,
                     "name": "minecraft:golden_apple"
                 },
                 {
@@ -175,7 +185,7 @@
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 4,
+                                "min": 7,
                                 "max": 10
                             }
                         },
@@ -184,7 +194,7 @@
                             "conditions": [
                                 {
                                     "condition": "random_chance",
-                                    "chance": 0.8
+                                    "chance": 0.9
                                 }
                             ]
                         }
@@ -209,7 +219,7 @@
                             "function": "set_count",
                             "count": {
                                 "min": 2,
-                                "max": 7
+                                "max": 4
                             }
                         }
                     ]
@@ -223,7 +233,7 @@
                             "function": "set_count",
                             "count": {
                                 "min": 1,
-                                "max": 3
+                                "max": 2
                             }
                         }
                     ]

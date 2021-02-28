@@ -9,13 +9,13 @@
         {
           "type": "item",
           "name": "stone",
-          "weight": 7,
+          "weight": 20,
           "functions": [
             {
               "function": "set_count",
               "count": {
 				"min": 10,
-				"max": 50
+				"max": 60
 			  }
             }
           ]
@@ -29,7 +29,7 @@
               "function": "set_count",
               "count": {
 				"min": 1,
-				"max": 7
+				"max": 3
 			  }
             }
           ]
@@ -61,7 +61,7 @@
         {
           "type": "item",
           "name": "shield",
-          "weight": 9
+          "weight": 20
         },
         {
           "type": "item",
@@ -81,20 +81,6 @@
           "type": "item",
           "name": "diamond_pickaxe",
           "weight": 10
-        },
-        {
-          "type": "item",
-          "name": "wooden_axe",
-          "weight": 9,
-          "functions": [
-            {
-              "function": "enchant_with_levels",
-              "levels": {
-                "min": 0,
-                "max": 10
-              }
-            }
-          ]
         },
         {
           "type": "item",

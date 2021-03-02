@@ -6,21 +6,7 @@
         "max": 6
       },
       "entries": [
-        {
-          "type": "item",
-          "name": "stone",
-          "weight": 7,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-				"min": 10,
-				"max": 50
-			  }
-            }
-          ]
-        },
-        {
+       	{
           "type": "item",
           "name": "arrow",
           "weight": 15,
@@ -29,7 +15,7 @@
               "function": "set_count",
               "count": {
 				"min": 1,
-				"max": 7
+				"max": 3
 			  }
             }
           ]
@@ -61,7 +47,7 @@
         {
           "type": "item",
           "name": "shield",
-          "weight": 9
+          "weight": 15
         },
         {
           "type": "item",
@@ -84,20 +70,6 @@
         },
         {
           "type": "item",
-          "name": "wooden_axe",
-          "weight": 9,
-          "functions": [
-            {
-              "function": "enchant_with_levels",
-              "levels": {
-                "min": 0,
-                "max": 10
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
           "name": "bow",
           "weight": 7
         },
@@ -106,11 +78,25 @@
           "name": "iron_helmet",
           "weight": 9,
           "functions": [
-            {
+	    {
               "function": "enchant_with_levels",
               "levels": {
                 "min": 1,
                 "max": 5
+              }
+            }
+          ]
+        },
+	{
+          "type": "item",
+          "name": "wooden_axe",
+          "weight": 9,
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": {
+                "min": 0,
+                "max": 10
               }
             }
           ]

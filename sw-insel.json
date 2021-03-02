@@ -78,7 +78,7 @@
           "name": "iron_helmet",
           "weight": 9,
           "functions": [
-            5
+	    {
               "function": "enchant_with_levels",
               "levels": {
                 "min": 1,

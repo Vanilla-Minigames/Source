@@ -1,0 +1,24 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 8
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CanPlaceOn:[\"stone\",\"gold_ore\",\"diamond_ore\",\"lime_terracotta\"],HideFlags:63}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

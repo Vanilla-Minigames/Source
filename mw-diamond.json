@@ -1,54 +1,82 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_leggings",
-          "weight": 12
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:chainmail_boots",
-          "weight": 12
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:leather_chestplate",
-          "weight": 12
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:chainmail_helmet",
-          "weight": 12
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:stone_sword",
-          "weight": 13
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_leggings",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_helmet",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_sword",
-          "weight": 7
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_boots",
-          "weight": 3
-        }
-      ]
-    }
-  ]
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_leggings",
+					"weight": 12
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chainmail_boots",
+					"weight": 12
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_chestplate",
+					"weight": 12
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chainmail_helmet",
+					"weight": 12
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone_sword",
+					"weight": 13
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_leggings",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_helmet",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_sword",
+					"weight": 7,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Unbreakable:1b}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_boots",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_pickaxe",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CanDestroy:[\"stone\",\"gold_ore\",\"diamond_ore\"],Enchantments:[{lvl:5,id:\"efficiency\"}],Unbreakable:1b,HideFlags:63}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:armor_stand",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CanPlaceOn:[\"stone\",\"gold_ore\",\"diamond_ore\",\"bedrock\"],EntityTag:{Tags:[\"mwtnt\"]},HideFlags:63}"
+						}
+					]
+				}
+			]
+		}
+	]
 }

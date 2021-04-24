@@ -8,7 +8,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 500,
+                    "weight": 490,
                     "name": "minecraft:wooden_sword",
                     "functions": [
                         {
@@ -262,12 +262,12 @@
                 },
                 {
                     "type": "item",
-                    "weight": 250,
+                    "weight": 245,
                     "name": "minecraft:wooden_axe"
                 },
                 {
                     "type": "item",
-                    "weight": 110,
+                    "weight": 100,
                     "name": "minecraft:wooden_pickaxe"
                 },
                 {
@@ -287,7 +287,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 128,
+                    "weight": 120,
                     "name": "minecraft:carrot",
                     "functions": [
                         {
@@ -307,7 +307,7 @@
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 3,
+                                "min": 2,
                                 "max": 5
                             }
                         },

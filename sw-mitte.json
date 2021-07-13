@@ -22,6 +22,30 @@
         },
         {
           "type": "item",
+          "name": "snowball",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				"min": 3,
+				"max": 12
+			  }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "water_bucket",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "lava_bucket",
+          "weight": 2
+        },
+        {
+          "type": "item",
           "name": "arrow",
           "weight": 14,
           "functions": [
@@ -144,7 +168,7 @@
               "function": "enchant_with_levels",
               "levels": {
                 "min": 1,
-                "max": 5
+                "max": 12
               }
             }
           ]

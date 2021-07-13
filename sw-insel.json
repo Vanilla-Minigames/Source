@@ -96,7 +96,7 @@
               "function": "enchant_with_levels",
               "levels": {
                 "min": 0,
-                "max": 10
+                "max": 9
               }
             }
           ]
@@ -125,7 +125,7 @@
               "function": "enchant_with_levels",
               "levels": {
                 "min": 0,
-                "max": 10
+                "max": 8
               }
             }
           ]
@@ -181,7 +181,7 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 12,
+                "min": 10,
                 "max": 60
               }
             }

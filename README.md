@@ -1,7 +1,7 @@
 # Vanilla Minigames
-Hier kann jeder mithelfen und Spielmodi verbessern :P
+Hier kann jeder mithelfen und Spielmodi verbessern .-.
 
- | Name vom Spielmodus | Abkürzung |
+ | Spielmodus | Abkürzung |
  | ---------------- | ------- |
  | Pigwars | pw
  | King of the Hill | kh
@@ -34,4 +34,8 @@ Hier kann jeder mithelfen und Spielmodi verbessern :P
  | DeathCube | dc
  | Lasertag | lt
  | Minewars | mw
+ | Lavarennen | lr
+ | Dropper | dr
+ | Gebietseroberung | ge
+ | Parkourrennen | pr
  

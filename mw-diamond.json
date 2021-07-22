@@ -61,7 +61,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CanDestroy:[\"stone\",\"gold_ore\",\"diamond_ore\"],Enchantments:[{lvl:5,id:\"efficiency\"}],Unbreakable:1b,HideFlags:63}"
+							"tag": "{CanDestroy:[\"stone\",\"gold_ore\",\"diamond_ore\",\"gravel\"],Enchantments:[{lvl:5,id:\"efficiency\"}],Unbreakable:1b,HideFlags:63}"
 						}
 					]
 				},
@@ -72,7 +72,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CanPlaceOn:[\"stone\",\"gold_ore\",\"diamond_ore\",\"bedrock\"],EntityTag:{Tags:[\"mwtnt\"]},HideFlags:63}"
+							"tag": "{CanPlaceOn:[\"stone\",\"gold_ore\",\"diamond_ore\",\"gravel\",\"bedrock\"],EntityTag:{Tags:[\"mwtnt\"],Small:1b},HideFlags:63,CustomModelData:1}"
 						}
 					]
 				}

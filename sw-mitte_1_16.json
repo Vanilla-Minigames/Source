@@ -306,7 +306,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:smiting_table"
+          "name": "minecraft:smithing_table"
         }
       ]
     }

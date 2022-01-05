@@ -243,6 +243,20 @@
 			  }
             }
           ]
+        },
+		{
+          "type": "item",
+          "name": "book",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": {
+                "min": 0,
+                "max": 11
+              }
+            }
+          ]
         }
       ]
     },

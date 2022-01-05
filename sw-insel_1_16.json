@@ -167,7 +167,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:apple",
-          "weight": 3
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -181,7 +181,7 @@
 		{
           "type": "minecraft:item",
           "name": "minecraft:sweet_berries",
-          "weight": 3
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",

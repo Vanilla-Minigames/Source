@@ -37,12 +37,12 @@
         {
           "type": "item",
           "name": "water_bucket",
-          "weight": 5
+          "weight": 6
         },
         {
           "type": "item",
           "name": "lava_bucket",
-          "weight": 4
+          "weight": 5
         },
         {
           "type": "item",
@@ -60,39 +60,44 @@
         },
         {
           "type": "item",
-          "name": "iron_sword",
-          "weight": 8
-        },
-        {
-          "type": "item",
           "name": "diamond_sword",
           "weight": 7
         },
         {
           "type": "item",
-          "name": "stone_sword",
+          "name": "iron_sword",
           "weight": 11,
           "functions": [
             {
-              "function": "enchant_randomly"
+              "function": "enchant_with_levels",
+              "levels": {
+                "min": 1,
+                "max": 16
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.05
+                }
+              ]
             }
           ]
         },
         {
           "type": "item",
           "name": "shield",
-          "weight": 9
+          "weight": 13
         },
         {
           "type": "item",
           "name": "iron_pickaxe",
-          "weight": 10,
+          "weight": 7,
           "functions": [
             {
               "function": "enchant_with_levels",
               "levels": {
-                "min": 5,
-                "max": 25
+                "min": 8,
+                "max": 28
               }
             }
           ]
@@ -100,12 +105,12 @@
         {
           "type": "item",
           "name": "diamond_pickaxe",
-          "weight": 9
+          "weight": 11
         },
         {
           "type": "item",
           "name": "iron_axe",
-          "weight": 10,
+          "weight": 11,
           "functions": [
             {
               "function": "enchant_with_levels",
@@ -123,88 +128,18 @@
         },
         {
           "type": "item",
-          "name": "iron_helmet",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "enchant_with_levels",
-              "levels": {
-                "min": 1,
-                "max": 10
-              }
-            }
-          ]
+          "name": "cobweb",
+          "weight": 5
         },
         {
           "type": "item",
-          "name": "diamond_helmet",
-          "weight": 7
-        },
-        {
-          "type": "item",
-          "name": "iron_chestplate",
-          "weight": 8,
-          "functions": [
-            {
-              "function": "enchant_with_levels",
-              "levels": {
-                "min": 0,
-                "max": 6
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "diamond_chestplate",
-          "weight": 6
-        },
-        {
-          "type": "item",
-          "name": "iron_leggings",
-          "weight": 9,
-          "functions": [
-            {
-              "function": "enchant_with_levels",
-              "levels": {
-                "min": 1,
-                "max": 12
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "diamond_leggings",
-          "weight": 7,
-          "functions": [
-            {
-              "function": "enchant_with_levels",
-              "levels": {
-                "min": 0,
-                "max": 7
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "diamond_boots",
-          "weight": 7,
-          "functions": [
-            {
-              "function": "enchant_with_levels",
-              "levels": {
-                "min": 0,
-                "max": 9
-              }
-            }
-          ]
+          "name": "flint_and_steel",
+          "weight": 3
         },
         {
           "type": "item",
           "name": "fishing_rod",
-          "weight": 8
+          "weight": 5
         },
         {
           "type": "item",
@@ -219,7 +154,7 @@
         {
           "type": "item",
           "name": "netherite_ingot",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "item",
@@ -229,8 +164,8 @@
             {
               "function": "set_count",
               "count": {
-				"min": 5,
-				"max": 15
+				"min": 6,
+				"max": 17
 			  }
             }
           ]
@@ -244,7 +179,7 @@
               "function": "set_count",
               "count": {
 				"min": 3,
-				"max": 10
+				"max": 11
 			  }
             }
           ]
@@ -307,6 +242,174 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:smithing_table"
+        }
+      ]
+    },
+	{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:iron_helmet",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 0,
+                "max": 7
+              }
+            },
+			{
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:diamond_helmet",
+          "functions": [
+			{
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:iron_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 0,
+                "max": 7
+              }
+            },
+			{
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:diamond_chestplate",
+          "functions": [
+			{
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:iron_leggings",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 0,
+                "max": 7
+              }
+            },
+			{
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:diamond_leggings",
+          "functions": [
+			{
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:iron_boots",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 0,
+                "max": 7
+              }
+            },
+			{
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:diamond_boots",
+          "functions": [
+			{
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": 1
+              }
+            }
+          ]
         }
       ]
     }

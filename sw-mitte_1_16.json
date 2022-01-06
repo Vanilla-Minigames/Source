@@ -9,12 +9,12 @@
         {
           "type": "item",
           "name": "copper_block",
-          "weight": 6,
+          "weight": 5,
           "functions": [
             {
               "function": "set_count",
               "count": {
-				"min": 10,
+				"min": 15,
 				"max": 50
 			  }
             }
@@ -124,7 +124,21 @@
         {
           "type": "item",
           "name": "bow",
-          "weight": 10
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:flame": 1
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.1
+                }
+              ]
+            }
+          ]
         },
         {
           "type": "item",
@@ -144,17 +158,17 @@
         {
           "type": "item",
           "name": "golden_apple",
-          "weight": 5
+          "weight": 7
         },
         {
           "type": "item",
           "name": "ender_pearl",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "item",
           "name": "netherite_ingot",
-          "weight": 3
+          "weight": 4
         },
         {
           "type": "item",
@@ -197,6 +211,20 @@
               }
             }
           ]
+        },
+        {
+          "type": "item",
+          "name": "iron_ingot",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 7
+              }
+            }
+          ]
         }
       ]
     },
@@ -222,14 +250,19 @@
       "rolls": 1,
       "entries": [
         {
+          "type": "minecraft:empty",
+          "weight": 3
+        },
+        {
           "type": "minecraft:item",
-          "name": "minecraft:apple",
+          "name": "minecraft:golden_carrot",
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 4
+                "min": 3,
+                "max": 6
               }
             }
           ]
@@ -268,7 +301,13 @@
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:protection": 1
-              }
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.8
+                }
+              ]
             }
           ]
         },
@@ -281,7 +320,13 @@
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:protection": 1
-              }
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.6
+                }
+              ]
             }
           ]
         }
@@ -310,7 +355,13 @@
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:protection": 1
-              }
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.8
+                }
+              ]
             }
           ]
         },
@@ -323,7 +374,13 @@
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:protection": 1
-              }
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.6
+                }
+              ]
             }
           ]
         }
@@ -352,7 +409,13 @@
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:protection": 1
-              }
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.8
+                }
+              ]
             }
           ]
         },
@@ -365,7 +428,13 @@
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:protection": 1
-              }
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.6
+                }
+              ]
             }
           ]
         }
@@ -394,7 +463,13 @@
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:protection": 1
-              }
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.8
+                }
+              ]
             }
           ]
         },
@@ -407,7 +482,13 @@
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:protection": 1
-              }
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.6
+                }
+              ]
             }
           ]
         }

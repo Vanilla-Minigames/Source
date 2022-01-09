@@ -71,6 +71,15 @@
 					"weight": 15,
 					"functions": [
 						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "TNT",
+								"color": "aqua",
+								"italic": false
+							}
+						},
+						{
 							"function": "minecraft:set_nbt",
 							"tag": "{CanPlaceOn:[\"stone\",\"gold_ore\",\"diamond_ore\",\"gravel\",\"bedrock\"],EntityTag:{Tags:[\"mwtnt\"],Small:1b},HideFlags:63,CustomModelData:1}"
 						}

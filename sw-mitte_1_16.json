@@ -8,28 +8,14 @@
       "entries": [
         {
           "type": "item",
-          "name": "copper_block",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-				"min": 15,
-				"max": 50
-			  }
-            }
-          ]
-        },
-        {
-          "type": "item",
           "name": "snowball",
           "weight": 8,
           "functions": [
             {
               "function": "set_count",
               "count": {
-				"min": 3,
-				"max": 12
+				"min": 5,
+				"max": 14
 			  }
             }
           ]
@@ -47,12 +33,12 @@
         {
           "type": "item",
           "name": "arrow",
-          "weight": 14,
+          "weight": 13,
           "functions": [
             {
               "function": "set_count",
               "count": {
-				"min": 1,
+				"min": 2,
 				"max": 4
 			  }
             }
@@ -82,25 +68,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "item",
-          "name": "iron_pickaxe",
-          "weight": 7,
-          "functions": [
-            {
-              "function": "enchant_with_levels",
-              "levels": {
-                "min": 8,
-                "max": 28
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "diamond_pickaxe",
-          "weight": 11
         },
         {
           "type": "item",
@@ -168,7 +135,7 @@
         {
           "type": "item",
           "name": "experience_bottle",
-          "weight": 9,
+          "weight": 10,
           "functions": [
             {
               "function": "set_count",
@@ -187,8 +154,8 @@
             {
               "function": "set_count",
               "count": {
-				"min": 3,
-				"max": 11
+				"min": 4,
+				"max": 10
 			  }
             }
           ]
@@ -261,6 +228,40 @@
               }
             }
           ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "iron_pickaxe",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": {
+                "min": 12,
+                "max": 30
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "diamond_pickaxe",
+          "weight": 3
         }
       ]
     },

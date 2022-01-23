@@ -85,11 +85,6 @@
         },
         {
           "type": "item",
-          "name": "shield",
-          "weight": 13
-        },
-        {
-          "type": "item",
           "name": "iron_pickaxe",
           "weight": 7,
           "functions": [
@@ -143,7 +138,7 @@
         {
           "type": "item",
           "name": "cobweb",
-          "weight": 5
+          "weight": 7
         },
         {
           "type": "item",
@@ -168,7 +163,7 @@
         {
           "type": "item",
           "name": "netherite_ingot",
-          "weight": 4
+          "weight": 6
         },
         {
           "type": "item",
@@ -273,6 +268,20 @@
       "rolls": 1,
       "entries": [
         {
+          "type": "minecraft:empty",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
           "type": "minecraft:item",
           "name": "minecraft:smithing_table"
         }
@@ -305,7 +314,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.8
+                  "chance": 0.9
                 }
               ]
             }
@@ -324,7 +333,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.6
+                  "chance": 0.7
                 }
               ]
             }
@@ -359,7 +368,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.8
+                  "chance": 0.9
                 }
               ]
             }
@@ -378,7 +387,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.6
+                  "chance": 0.7
                 }
               ]
             }
@@ -413,7 +422,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.8
+                  "chance": 0.9
                 }
               ]
             }
@@ -432,7 +441,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.6
+                  "chance": 0.7
                 }
               ]
             }
@@ -467,7 +476,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.8
+                  "chance": 0.9
                 }
               ]
             }
@@ -486,7 +495,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.6
+                  "chance": 0.7
                 }
               ]
             }

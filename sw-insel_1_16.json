@@ -57,11 +57,6 @@
         },
         {
           "type": "item",
-          "name": "shield",
-          "weight": 17
-        },
-        {
-          "type": "item",
           "name": "iron_pickaxe",
           "weight": 7,
           "functions": [
@@ -139,7 +134,7 @@
         {
           "type": "item",
           "name": "cobweb",
-          "weight": 5
+          "weight": 6
         },
         {
           "type": "item",
@@ -224,14 +219,20 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "min": 0,
-                "max": 11
+                "max": 14
               }
             },
 			{
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:protection": 1
-              }
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.7
+                }
+              ]
             }
           ]
         },
@@ -244,9 +245,29 @@
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:protection": 1
-              }
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "weight": 1
         }
       ]
     },
@@ -266,14 +287,20 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "min": 0,
-                "max": 6
+                "max": 10
               }
             },
 			{
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:protection": 1
-              }
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.7
+                }
+              ]
             }
           ]
         },
@@ -286,7 +313,13 @@
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:protection": 1
-              }
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
             }
           ]
         }
@@ -308,14 +341,20 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "min": 0,
-                "max": 8
+                "max": 12
               }
             },
 			{
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:protection": 1
-              }
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.7
+                }
+              ]
             }
           ]
         },
@@ -328,7 +367,13 @@
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:protection": 1
-              }
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
             }
           ]
         }
@@ -350,14 +395,20 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "min": 0,
-                "max": 12
+                "max": 14
               }
             },
 			{
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:protection": 1
-              }
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.7
+                }
+              ]
             }
           ]
         },
@@ -370,7 +421,13 @@
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:protection": 1
-              }
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
             }
           ]
         }

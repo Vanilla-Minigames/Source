@@ -105,7 +105,16 @@
         {
           "type": "item",
           "name": "cobweb",
-          "weight": 7
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
         },
         {
           "type": "item",
@@ -135,13 +144,13 @@
         {
           "type": "item",
           "name": "experience_bottle",
-          "weight": 10,
+          "weight": 9,
           "functions": [
             {
               "function": "set_count",
               "count": {
-				"min": 6,
-				"max": 17
+				"min": 7,
+				"max": 19
 			  }
             }
           ]
@@ -200,8 +209,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 12,
-                "max": 45
+                "min": 10,
+                "max": 50
               }
             }
           ]
@@ -213,12 +222,12 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 3
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_carrot",
-          "weight": 4,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -283,8 +292,13 @@
       "rolls": 1,
       "entries": [
         {
+          "type": "minecraft:empty",
+          "weight": 1
+        },
+        {
           "type": "minecraft:item",
-          "name": "minecraft:smithing_table"
+          "name": "minecraft:smithing_table",
+          "weight": 2
         }
       ]
     },

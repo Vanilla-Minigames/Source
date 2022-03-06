@@ -12,9 +12,9 @@ Hier kann jeder mithelfen und Spielmodi verbessern .-.
  | Eislauf | el | ✅
  | Elytrarennen | er | ✅
  | Elytrawars | ew | ✅
+ | Getdown | gd | ✅
  | Gebietseroberung | ge | ✅
  | GunGame | gg | ✅
- | UHC | hc | ⏰
  | HG | hg | ✅
  | Block Hunt | hs | ✅
  | Jump League | jl | ✅
@@ -47,6 +47,6 @@ Hier kann jeder mithelfen und Spielmodi verbessern .-.
  | TNT-Wars | tw | ✅
  | 1vs1 | vs | ✅
  | Waterjump | wj | ✅
- | Water-MLG | wm | ⏰
+ | MLG-Training | wm | ⏰
  | Woolwars | wo | ✅
- 
+ | Zombies | zo | ⏰

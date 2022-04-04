@@ -2,7 +2,7 @@
     "pools": [
         {
             "rolls": {
-                "min": 3,
+                "min": 4,
                 "max": 9
             },
             "entries": [
@@ -29,7 +29,7 @@
                         {
                             "function": "enchant_with_levels",
                             "levels": {
-                                "min": 8,
+                                "min": 11,
                                 "max": 30
                             },
                             "treasure": true,
@@ -51,7 +51,7 @@
                             "function": "enchant_with_levels",
                             "levels": {
                                 "min": 10,
-                                "max": 25
+                                "max": 27
                             },
                             "treasure": true,
                             "conditions": [
@@ -149,14 +149,14 @@
                         {
                             "function": "enchant_with_levels",
                             "levels": {
-                                "min": 5,
-                                "max": 40
+                                "min": 7,
+                                "max": 35
                             },
                             "treasure": true,
                             "conditions": [
                                 {
                                     "condition": "random_chance",
-                                    "chance": 0.3
+                                    "chance": 0.4
                                 }
                             ]
                         }
@@ -179,14 +179,14 @@
                 },
                 {
                     "type": "item",
-                    "weight": 160,
+                    "weight": 165,
                     "name": "minecraft:potato",
                     "functions": [
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 7,
-                                "max": 10
+                                "min": 5,
+                                "max": 11
                             }
                         },
                         {
@@ -263,6 +263,27 @@
                                 "min": 48,
                                 "max": 64
                             }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 50,
+                    "name": "minecraft:shield",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "min": 7,
+                                "max": 35
+                            },
+                            "treasure": true,
+                            "conditions": [
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.4
+                                }
+                            ]
                         }
                     ]
                 }

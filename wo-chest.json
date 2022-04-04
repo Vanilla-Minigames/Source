@@ -35,14 +35,14 @@
                         {
                             "function": "enchant_with_levels",
                             "levels": {
-                                "min": 7,
-                                "max": 20
+                                "min": 8,
+                                "max": 25
                             },
                             "treasure": true,
                             "conditions": [
                                 {
                                     "condition": "random_chance",
-                                    "chance": 0.1
+                                    "chance": 0.2
                                 }
                             ]
                         }
@@ -431,6 +431,11 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "item",
+                    "weight": 50,
+                    "name": "minecraft:shield"
                 }
             ]
         }
